@@ -116,5 +116,5 @@ Contributions are welcome. Fork the repository, open issues, or submit pull requ
 
 ## Links
 
-    GitHub: https://github.com/your-username/data-utils
+    GitHub: https://github.com/CookAPI/DataUtils
     Packagist: https://packagist.org/packages/coreapi/data-utils
