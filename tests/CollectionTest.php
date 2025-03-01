@@ -2,8 +2,8 @@
 
 declare(strict_types=1);
 
-use CoreApi\DataUtils\Collection;
 use PHPUnit\Framework\TestCase;
+use Cook\DataUtils\Collection;
 
 final class CollectionTest extends TestCase
 {

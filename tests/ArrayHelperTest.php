@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 use PHPUnit\Framework\TestCase;
-use CoreApi\DataUtils\ArrayHelper;
+use Cook\DataUtils\ArrayHelper;
 
 final class ArrayHelperTest extends TestCase
 {

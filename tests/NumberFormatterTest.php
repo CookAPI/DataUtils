@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 use PHPUnit\Framework\TestCase;
-use CoreApi\DataUtils\NumberFormatter;
+use Cook\DataUtils\NumberFormatter;
 
 final class NumberFormatterTest extends TestCase
 {

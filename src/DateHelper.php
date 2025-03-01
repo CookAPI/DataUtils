@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace CoreApi\DataUtils;
+namespace Cook\DataUtils;
 
 use DateTimeImmutable;
 use DateTimeZone;
