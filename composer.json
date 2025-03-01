@@ -1,5 +1,5 @@
 {
-  "name": "coreapi/data-utils",
+  "name": "cook/data-utils",
   "description": "A utility module for handling collections, arrays, and string manipulations efficiently.",
   "keywords": [],
   "type": "library",
@@ -21,7 +21,7 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "CoreApi\\DataUtils\\": "src/"
+      "Cook\\DataUtils\\": "src/"
     },
     "exclude-from-classmap": [
       "/tests/"

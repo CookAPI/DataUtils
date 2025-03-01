@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 use PHPUnit\Framework\TestCase;
-use CoreApi\DataUtils\DateHelper;
+use Cook\DataUtils\DateHelper;
 
 final class DateHelperTest extends TestCase
 {

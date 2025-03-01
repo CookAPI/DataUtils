@@ -1,6 +1,6 @@
-# CoreApi Data Utils
+# Cook Data Utils
 
-CoreApi Data Utils is a PHP library providing utility functions for handling collections, arrays, strings, numbers, and dates.  
+Cook Data Utils is a PHP library providing utility functions for handling collections, arrays, strings, numbers, and dates.  
 The module is designed with performance, modularity, and lazy evaluation in mind.
 
 ## Features
@@ -16,7 +16,7 @@ The module is designed with performance, modularity, and lazy evaluation in mind
 Install the package using Composer:
 
 ```shell
-composer require coreapi/data-utils
+composer require cook/data-utils
 ```
 
 ## Usage examples
@@ -24,7 +24,7 @@ composer require coreapi/data-utils
 ### Collection
 
 ```php
-use CoreApi\DataUtils\Collection;
+use Cook\DataUtils\Collection;
 
 $collection = new Collection([1, 2, 3, 4, 5]);
 
@@ -44,7 +44,7 @@ echo "Sum: $sum\n"; // Sum: 15
 ### Array Utilities
 
 ```php
-use CoreApi\DataUtils\ArrayHelper;
+use Cook\DataUtils\ArrayHelper;
 
 $data = [
     ['id' => 1, 'category' => 'A'],
@@ -60,7 +60,7 @@ print_r($grouped);
 ### String Formatting
 
 ```php
-use CoreApi\DataUtils\StringFormatter;
+use Cook\DataUtils\StringFormatter;
 
 echo StringFormatter::toCamelCase('hello_world'); // helloWorld
 echo StringFormatter::toSnakeCase('HelloWorld');  // hello_world
@@ -69,7 +69,7 @@ echo StringFormatter::toSnakeCase('HelloWorld');  // hello_world
 ### Number Formatting
 
 ```php
-use CoreApi\DataUtils\NumberFormatter;
+use Cook\DataUtils\NumberFormatter;
 
 echo NumberFormatter::format(123.456, 2); // 123.46
 echo NumberFormatter::roundUp(123.456, 0); // 124
@@ -79,7 +79,7 @@ echo NumberFormatter::roundDown(123.999, 0); // 123
 ### Date Utilities
 
 ```php
-use CoreApi\DataUtils\DateHelper;
+use Cook\DataUtils\DateHelper;
 
 echo DateHelper::now(); // 2024-03-01 12:34:56
 echo DateHelper::format('2024-03-01 12:34:56', 'Y-m-d'); // 2024-03-01
@@ -116,5 +116,5 @@ Contributions are welcome. Fork the repository, open issues, or submit pull requ
 
 ## Links
 
-    GitHub: https://github.com/CookAPI/DataUtils
-    Packagist: https://packagist.org/packages/coreapi/data-utils
+    GitHub: https://github.com/Cook/DataUtils
+    Packagist: https://packagist.org/packages/cook/data-utils
