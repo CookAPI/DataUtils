@@ -29,7 +29,8 @@ final class StringFormatter
     public static function toSnakeCase(string $string): string
     {
         $string = preg_replace('/[A-Z]/', '_$0', $string);
-        $string = preg_replace('/\s+/', '_', $string);
-        return strtolower(trim($string, '_'));
+        $string = preg_replace('/\s+/', '_', (string) $string);
+
+        return strtolower(trim((string) $string, '_'));
     }
 }
